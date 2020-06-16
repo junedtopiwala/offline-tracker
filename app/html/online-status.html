@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  const alertOnlineStatus = () => {
+    window.alert(navigator.onLine ? 'online' : 'offline')
+  }
+
+  window.addEventListener('online',  alertOnlineStatus)
+  window.addEventListener('offline',  alertOnlineStatus)
+
+  alertOnlineStatus()
+</script>
+<label for='t1'>i am fine</label>
+</body>
+</html>
